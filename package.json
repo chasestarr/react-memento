@@ -1,0 +1,33 @@
+{
+  "name": "react-memento",
+  "version": "0.0.1",
+  "main": "./dist/react-memento.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chasestarr/react-memento.git"
+  },
+  "author": "Chase Starr <chasestarr@gmail.com> (https://github.com/chasestarr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chasestarr/react-memento/issues"
+  },
+  "homepage": "https://github.com/chasestarr/react-memento",
+  "peerDependencies": {
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "react": "16.7.0-alpha.0",
+    "react-dom": "16.7.0-alpha.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
