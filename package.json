@@ -1,6 +1,6 @@
 {
   "name": "react-memento",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "dist/react-memento.js",
   "module": "dist/react-memento.es.js",
   "scripts": {
