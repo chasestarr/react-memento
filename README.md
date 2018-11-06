@@ -2,6 +2,8 @@
 
 Step-through and rewind react state transitions.
 
+ <img src="https://i.imgur.com/z3Q6adX.png" width="600">
+
 ```jsx
 import React from 'react';
 import useMemento from 'react-memento';
